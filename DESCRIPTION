@@ -1,0 +1,19 @@
+Package: epgwr
+Type: Package
+Title: Error Propagation in Geographically Weighted Regression
+Version: 0.1.0
+Author: Jaakko Madetoja
+Maintainer: Jaakko Madetoja <jaakko.madetoja@aalto.fi>
+Description: This package runs error propagation for a given Geographically Weighted Regression model using Monte Carlo simulation. The package also include functions for visualizing results with histograms and maps.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: false
+Depends: R (>= 3.2.0)
+Imports:
+  ape,
+  car,
+  mvtnorm,
+  parallel,
+  spdep,
+  spgwr
+RoxygenNote: 6.0.1.9000
